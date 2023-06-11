@@ -5,14 +5,14 @@ window:
     close: Voulez-vous quitter l'application quand vous cliquez sur le bouton [x] ?
 menu:
   app:
-    about: A propos NoFWL
+    about: A propos de NoFWL
     check_update: Vérifier les mises à jour
   preferences:
     name: Préférences
     control_center: Centre de contrôle
     stay_on_top: Garder en haut
     titlebar: Barre de titre
-    hide_dock_icon: Cacher l'icone du dock
+    hide_dock_icon: Cacher l'icône du dock
     language: Langue
     theme:
       name: Thème
@@ -51,22 +51,22 @@ gpt:
     menu_title:
       new: Nouvelle conversation
       history: Historique
-      prompts: Prompts
+      prompts: Invites
       export_md: Exporter en Markdown
       settings: Paramètres
       hide_side: Cacher le panneau
     message:
       chat_history: Historique de chat
-      chat_delete: Êtes-vous sûr de vouloir supprimer cette conversation ? Elle ne peut pas être restauré après la suppression!
+      chat_delete: Êtes-vous sûr de vouloir supprimer cette conversation ? Elle ne pourra pas être restaurée après la suppression !
   modal:
     settings_title: paramètres GPT
     chat_avatar:
       label: Chat Avatar
       tip: '(square: 200x200)'
-      warn: Format de fichier invalide. Merci de selectionner une image JPEG (JPG) ou PNG !
-    api_key:
+      warn: Format de fichier invalide. Merci de sélectionner une image JPEG (JPG) ou PNG !
+    api_key: clé API
       label: API
-      warn: L'API ne peux pas être vide!
+      warn: L'API ne peut pas être vide!
       title: A propos de l'API
       link: Récupérez votre API auprès d'OpenAI
       context: Votre clé API est stockée localement et ne sera jamais envoyée ailleurs.
@@ -74,16 +74,17 @@ gpt:
     context_level:
       label: Niveau de contexte
       title: Qu’est-ce que le niveau de contexte ?
-      context: Le modèle n’a aucun souvenir des demandes passées et doit recevoir toutes les informations pertinentes par le dialogue. Les demandes seront basées sur un niveau de contexte défini qui prend les N éléments d’information les plus récents dans une plage de 0 à 100.
-  main:
-    message:
-      delete_confirm: êtes-vous sûrs ?
+      context: Le modèle n’a aucun souvenir des demandes passées et doit recevoir toutes les informations pertinentes via le dialogue. Les demandes seront basées sur un niveau de contexte défini qui prend les N éléments d’information les plus récents dans une plage de 0 à 100.
+  main: Principal
+    message: 
+      delete_confirm: êtes-vous sûr ?
 
-control_center:
+control_center: Centre de contrôle 
   menu:
-    settings: Settings
-    prompts:
-      name: Prompts
-      user_custom: User Custom
-      sync_prompts: Sync Prompts
-      sync_custom: Sync Custom
+    settings: Paramètres
+    prompts: 
+      name: Invites
+      user_custom: Personnalisation utilisateur
+      sync_prompts: Invites de synchronisation     
+      sync_custom: Synchronisation personnalisée
+      
